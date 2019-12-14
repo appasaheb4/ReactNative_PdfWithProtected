@@ -1,0 +1,24 @@
+{
+  "name": "pdfwithprot",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "qrcode-svg": "^1.1.0",
+    "react": "16.6.1",
+    "react-native": "0.57.5",
+    "react-native-html-to-pdf": "^0.8.0"
+  },
+  "devDependencies": {
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.57.0",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
